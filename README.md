@@ -25,14 +25,14 @@ Django==5.0.4
 sqlparse==0.4.4
 tzdata==2024.1
 ## How to configure
-download a virtual enviornment : pip install virtualenv
-create a virtual enviornment : python -m venv env
-activate virtual enviornmnrt : .\env\Scripts\activate 
-Install django in virtual enviornment : pip install django
-Start django project  :django-admin startproject toDo_main
-Create a todo app : python manage.py startapp todo
-Configure created app in settings.py
-Add path for the template directory
+download a virtual enviornment : pip install virtualenv,
+create a virtual enviornment : python -m venv env,
+activate virtual enviornmnrt : .\env\Scripts\activate, 
+Install django in virtual enviornment : pip install django,
+Start django project  :django-admin startproject toDo_main,
+Create a todo app : python manage.py startapp todo,
+Configure created app in settings.py,
+Add path for the template directory,
 Configure static files in django for css and js files
 ## How to Run
 Follow the above commands and configure the project as given above
