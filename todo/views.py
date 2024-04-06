@@ -1,7 +1,8 @@
+from django.http import HttpResponse
 from django.shortcuts import render
 
 # Create your views here.
 
 def addTask(request):
-    print("Hello")
-    return render(request, 'home-todo.html')
+    print(request.POST['task'])
+    return HttpResponse("Form is submitted!")
